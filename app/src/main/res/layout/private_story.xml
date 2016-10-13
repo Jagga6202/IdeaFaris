@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include layout="@layout/toolbar"></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EBEBEB"
+       >
+    <Button
+        android:id="@+id/writestory"
+     android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadowwrite"
+        android:textColor="@color/buttontext"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/globalstory"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        />
+    </RelativeLayout>
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:background="#EBEBEB"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1">
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/privatecontact"
+
+
+        android:background="@color/buttontext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        app:backgroundTint="#FFD400"
+
+        app:layout_anchor="@+id/privatecontact"
+        app:layout_anchorGravity="bottom|end"
+        android:src="@drawable/addfriend" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+

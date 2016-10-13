@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Storyline</string>
+    <string name="login_fb">Login With Facebook</string>
+    <string name="login_twitter">Login With Twitter</string>
+    <string name="gender_prompt">Choose your gender</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="story">Storyline by Faris AbuBakr</string>
+    <string name="joinstoryline">JOIN THE GLOBAL STORYLINE</string>
+    <string name="createwithfriend">CREATE WITH FRIENDS</string>
+    <string name="globalstory">Write Your Own Story</string>
+    <string name="facebook_app_id">856334584503376</string>
+    <string name="login_failed_favcy">login twitter failed</string>
+    <string name="spin_prompt"> </string>
+</resources>
